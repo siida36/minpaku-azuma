@@ -28,7 +28,7 @@ export default function CyclistMinpakuLanding() {
           { icon: <Store className="w-5 h-5" />, label: "スーパー・ドラッグストアまで徒歩3分" },
           { icon: <Bike className="w-5 h-5" />, label: "サイクル車庫あり・一階室内にも持ち込み可" },
           { icon: <CarFront className="w-5 h-5" />, label: "近隣にお安い駐車場あり" },
-          { icon: <ShowerHead className="w-5 h-5" />, label: "入浴は徒歩3分『あいらぶ湯』へ" },
+          { icon: <ShowerHead className="w-5 h-5" />, label: "入浴は内風呂か徒歩3分『あいらぶ湯』へ" },
           { icon: <Disc3 className="w-5 h-5" />, label: "富山県をはじめとしたお祭り資料を鑑賞可能" },
         ],
         optional: [
@@ -57,7 +57,7 @@ export default function CyclistMinpakuLanding() {
           "一室7,500円/一泊、または2階貸し切り27,000円/一泊",
           "現金のみ、リピーター特典あり",
           "チェックイン午後3時から、チェックアウト午前10時まで",
-          "連絡先・予約は次にお電話をください → 080xxxxxxxx",
+          "インボイス非対応",
         ],
       },
       numbers: {
