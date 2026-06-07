@@ -17,7 +17,7 @@ export default function CyclistMinpakuLanding() {
       name: "民泊 吾妻 公式Webサイト",
       tagline: "民泊 吾妻",
       ctaReserve: "空き状況・お問い合わせ",
-      ctaReserveNote: "※オンライン予約は準備中です",
+      ctaReserveNote: "※宿の主人の電話に繋がります",
       heroPoints: [
       ],
       cyclistFriendly: {
@@ -40,14 +40,14 @@ export default function CyclistMinpakuLanding() {
       location: {
         title: "アクセス・周辺",
         facts: [
-          { icon: <Clock className="w-5 h-5" />, text: "『東京駅』より北陸新幹線経由で約3時間" },
-          { icon: <Car className="w-5 h-5" />, text: "『練馬IC』より上信越道経由で約4.5時間" },
-          { icon: <Train className="w-5 h-5" />, text: "あいの風とやま鉄道『滑川駅』から徒歩約8分（約650m）" },
+          { icon: <Clock className="w-5 h-5" />, text: "東京駅より北陸新幹線で富山駅まで2時間10分、富山駅から滑川駅まで17分" },
+          { icon: <Train className="w-5 h-5" />, text: "あいの風とやま鉄道、滑川駅から徒歩約8分（約650m）" },
+          { icon: <Car className="w-5 h-5" />, text: "練馬ICより上信越道経由で約5時間" },
           { icon: <MapPin className="w-5 h-5" />, text: "県道139号線沿い／木造2階建て" },
-          { icon: <SunMedium className="w-5 h-5" />, text: "『宿場回廊 瀬羽町』へ約800m／『ほたるいかミュージアム』へ約900m" },
+          { icon: <SunMedium className="w-5 h-5" />, text: "宿場回廊 瀬羽町へ約800m／ほたるいかミュージアムへ約900m" },
           { icon: <Waves className="w-5 h-5" />, text: "富山湾クルージングや海の絶景スポットが近くに" },
-          { icon: <Mountain className="w-5 h-5" />, text: "立山登山の富山県側拠点『立山駅』まで車・電車で一時間前後" },
-          { icon: <TrainFront className="w-5 h-5" />, text: "あいの風とやま鉄道滑川駅より17分で『富山駅』へ" },
+          { icon: <Mountain className="w-5 h-5" />, text: "立山登山の富山県側拠点立山駅まで車・電車で一時間前後" },
+          { icon: <TrainFront className="w-5 h-5" />, text: "あいの風とやま鉄道滑川駅より17分で富山駅へ" },
           { icon: <TrainTrack className="w-5 h-5" />, text: "高岡・魚津・黒部などへも電車でアクセス可能" },
         ],
       },
@@ -55,7 +55,7 @@ export default function CyclistMinpakuLanding() {
         title: "宿泊について",
         bullets: [
           "一室7,500円/一泊、または2階貸し切り27,000円/一泊",
-          "現金のみ、リピーター特典あり",
+          "現金またはPayPay払い、リピーター特典あり",
           "チェックイン午後3時から、チェックアウト午前10時まで",
           "インボイス非対応",
         ],
@@ -76,7 +76,7 @@ export default function CyclistMinpakuLanding() {
           {
             icon: <ShowerHead className="w-5 h-5" />,
             label: "アメニティ",
-            value: "タオル・シャンプー・洗濯乾燥機等",
+            value: "歯ブラシ、カミソリ、貸しタオル、ソープ・シャンプー・リンス等",
           },
           
         ],
@@ -87,7 +87,7 @@ export default function CyclistMinpakuLanding() {
         bullets: [
           "普通の民家で少しずつリフォームしています。至らない点はあろうかと思いますが、やすらぎ場所としてご利用頂ければ幸いです。",
           "個人情報を含めお客様の情報を他者に漏らすことはありません。ただし、個人識別できない情報で行政等への数値情報報告はこの限りではありません。",
-          "反社会的行動、ハラスメント行動履歴の方はご遠慮ください。",
+          "全館禁煙です。また、反社会的行動、ハラスメント行動履歴のある方はご遠慮ください。",
         ],
       },
       contact: {
@@ -188,7 +188,7 @@ export default function CyclistMinpakuLanding() {
             </div>
             <div className="flex items-center gap-2">
               <a
-                href="mailto:info@example.com?subject=民泊お問い合わせ"
+                href="tel:08072756213"
                 className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-slate-900 text-white hover:opacity-90"
               >
                 <Mail className="w-4 h-4" />{L.ctaReserve}
@@ -228,7 +228,7 @@ export default function CyclistMinpakuLanding() {
                 ))}
               </ul>
               <div className="mt-6 flex gap-3">
-                <a href="mailto:info@example.com?subject=民泊お問い合わせ" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-slate-900 text-white hover:opacity-90">
+                <a href="tel:08072756213" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-slate-900 text-white hover:opacity-90">
                   <Phone className="w-4 h-4" /> {L.ctaReserve}
                 </a>
                 <span className="self-center text-xs text-slate-500">{L.ctaReserveNote}</span>
@@ -347,8 +347,8 @@ export default function CyclistMinpakuLanding() {
               {[
                 "/photos/lantern.jpg",
                 "/photos/snow_appearance.jpg",
-                "/photos/interior_view.jpg",
-                "/photos/sea.jpg",
+                "/photos/interior_view_2.jpg",
+                "/photos/sea_2.png",
                 "/photos/tateyama.png",
                 "/photos/station.jpg",
               ].map((src, i) => (
@@ -373,31 +373,6 @@ export default function CyclistMinpakuLanding() {
               ))}
             </div>
           </div>
-        </Section>
-
-
-        {/* Contact */}
-        <Section title={L.contact.title} subtitle={L.contact.desc}>
-          <form className="grid md:grid-cols-2 gap-4 max-w-3xl">
-            <label className="block">
-              <span className="text-sm text-slate-600">{L.contact.name}</span>
-              <input type="text" className="mt-1 w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-slate-300" placeholder={isJA ? "山田 太郎" : "Taro Yamada"} />
-            </label>
-            <label className="block">
-              <span className="text-sm text-slate-600">{L.contact.email}</span>
-              <input type="email" className="mt-1 w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-slate-300" placeholder="you@example.com" />
-            </label>
-            <label className="block md:col-span-2">
-              <span className="text-sm text-slate-600">{L.contact.message}</span>
-              <textarea className="mt-1 w-full rounded-xl border px-3 py-2 h-28 focus:outline-none focus:ring-2 focus:ring-slate-300" placeholder={isJA ? "利用希望日・人数など" : "Dates, number of guests, etc."} />
-            </label>
-            <div className="md:col-span-2 flex items-center gap-3">
-              <button type="button" onClick={() => (window.location.href = "mailto:info@example.com") } className="px-5 py-2.5 rounded-2xl bg-slate-900 text-white hover:opacity-90">
-                {L.contact.send}
-              </button>
-              <span className="text-xs text-slate-500">{L.ctaReserveNote}</span>
-            </div>
-          </form>
         </Section>
 
         {/* Footer */}
